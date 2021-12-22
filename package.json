@@ -24,8 +24,8 @@
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
-		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write --plugin-search-dir=. .",
 		"prepare": "husky install"
 	},
 	"devDependencies": {
@@ -45,11 +45,11 @@
 	},
 	"type": "module",
 	"lint-staged": {
-		"*.+(js|ts|svelte)": [
-			"yarn run lint"
-		],
 		"*.+(js|json|ts|svelte)": [
 			"yarn run format"
+		],
+		"*.+(js|ts|svelte)": [
+			"yarn run lint"
 		]
 	}
 }

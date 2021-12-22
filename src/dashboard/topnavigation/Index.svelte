@@ -57,7 +57,7 @@
 			<div
 				class="flex items-center justify-end ml-5 p-1 relative w-9/12 sm:mr-0 sm:right-auto md:w-1/4"
 			>
-				<a href='#' class="block pr-1 text-gray-700">
+				<a href="#" class="block pr-1 text-gray-700">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6"

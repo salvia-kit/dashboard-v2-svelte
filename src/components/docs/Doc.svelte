@@ -22,14 +22,6 @@
 		<div class="pl-2">
 			<div class="flex mt-4 mb-3">
 				<FolderIcon />
-				<span class="pl-2">pages</span>
-			</div>
-			<div class="flex mt-4 mb-3">
-				<FolderIcon />
-				<span class="pl-2">public</span>
-			</div>
-			<div class="flex mt-4 mb-3">
-				<FolderIcon />
 				<span class="pl-2">src</span>
 			</div>
 			<div class="pl-5 flex mb-3">
@@ -225,7 +217,7 @@
 				<strong class="px-1">routes</strong>folder
 			</li>
 			<li class="mb-3">
-				Wrap your <strong>routes/_layout.svelte</strong> with the
+				Wrap <strong>routes/__layout.svelte</strong> with the
 				<strong class="px-1">Layout</strong>component from <strong>dashboard/Layout.svelte</strong>
 			</li>
 		</ul>
@@ -277,9 +269,9 @@
 		</p>
 		<p class="mt-5">
 			The sidenav scrollbar is hidden by default but you can still scroll with the keyboards if you
-			have several sidenav-items. If you are not a fan of this approach, you can always change its
-			style in the
-			<strong class="px-1">style.module.css</strong>file
+			have several sidenav-items. If you are not a fan of this approach, you can always change the
+			style in
+			<strong class="pr-1">dashboard/sidenavigation/Index.svelte</strong>file
 		</p>
 		<p class="mt-5">
 			In the <strong> dashboard/Layout.svelte</strong> file, the
