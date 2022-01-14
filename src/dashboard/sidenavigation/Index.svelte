@@ -2,7 +2,7 @@
 	import SidenavItems from './Items.svelte';
 	import SidenavHeader from './Header.svelte';
 	import { open, closeSidenav } from '../provider/store';
-	import { clickOutside } from '../provider/clickOutside';
+	import { clickOutside } from '../provider/click-outside';
 
 	const style = {
 		left: 'left-0',

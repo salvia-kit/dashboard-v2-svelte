@@ -16,7 +16,10 @@
 			<div class="mb-10">
 				<div class={style.section}>{section.section}</div>
 				{#each section.content as item, i (item.title)}
-					<a href={item.link} class={`${style.link} ${item.link === $page.path && style.active}`}>
+					<a
+						href={item.link}
+						class={`${style.link} ${item.link === $page.url.pathname && style.active}`}
+					>
 						<span><svelte:component this={item.icon} /></span>
 						<span class={style.title}>{item.title}</span>
 					</a>
