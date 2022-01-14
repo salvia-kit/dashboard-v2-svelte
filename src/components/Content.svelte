@@ -201,13 +201,13 @@
 									<td class="px-5 py-5 border-b border-gray-200 text-sm">
 										<div class="flex items-center">
 											<div class="flex-shrink-0">
-												<a href="#" class="block relative">
+												<span class="block relative">
 													<img
 														alt="profil"
 														src="https://res.cloudinary.com/beloved/image/upload/v1623196231/Assets/person/8_yfarwk.jpg"
 														class="mx-auto object-cover rounded-full h-10 w-10 "
 													/>
-												</a>
+												</span>
 											</div>
 											<div class="ml-3">
 												<p class="whitespace-no-wrap">Jean marc</p>
@@ -230,20 +230,20 @@
 										</span>
 									</td>
 									<td class="px-5 py-5 border-b border-gray-200 text-sm">
-										<a href="#" class="text-indigo-600 hover:text-indigo-900"> Edit </a>
+										<span class="text-indigo-600 hover:text-indigo-900"> Edit </span>
 									</td>
 								</tr>
 								<tr>
 									<td class="px-5 py-5 border-b border-gray-200 text-sm">
 										<div class="flex items-center">
 											<div class="flex-shrink-0">
-												<a href="#" class="block relative">
+												<span class="block relative">
 													<img
 														alt="profil"
 														src="https://res.cloudinary.com/beloved/image/upload/v1623196231/Assets/person/4_iauuag.jpg"
 														class="mx-auto object-cover rounded-full h-10 w-10 "
 													/>
-												</a>
+												</span>
 											</div>
 											<div class="ml-3">
 												<p class="whitespace-no-wrap">Marcus coco</p>
@@ -268,20 +268,20 @@
 										</span>
 									</td>
 									<td class="px-5 py-5 border-b border-gray-200 text-sm">
-										<a href="#" class="text-indigo-600 hover:text-indigo-900"> Edit </a>
+										<span class="text-indigo-600 hover:text-indigo-900"> Edit </span>
 									</td>
 								</tr>
 								<tr>
 									<td class="px-5 py-5 border-b border-gray-200 text-sm">
 										<div class="flex items-center">
 											<div class="flex-shrink-0">
-												<a href="#" class="block relative">
+												<span class="block relative">
 													<img
 														alt="profil"
 														src="https://res.cloudinary.com/beloved/image/upload/v1623196231/Assets/person/3_iscinv.jpg"
 														class="mx-auto object-cover rounded-full h-10 w-10 "
 													/>
-												</a>
+												</span>
 											</div>
 											<div class="ml-3">
 												<p class="whitespace-no-wrap">Eric marc</p>
@@ -304,20 +304,20 @@
 										</span>
 									</td>
 									<td class="px-5 py-5 border-b border-gray-200 text-sm">
-										<a href="#" class="text-indigo-600 hover:text-indigo-900"> Edit </a>
+										<span class="text-indigo-600 hover:text-indigo-900"> Edit </span>
 									</td>
 								</tr>
 								<tr>
 									<td class="px-5 py-5 border-b border-gray-200 text-sm">
 										<div class="flex items-center">
 											<div class="flex-shrink-0">
-												<a href="#" class="block relative">
+												<span class="block relative">
 													<img
 														alt="profil"
 														src="https://res.cloudinary.com/beloved/image/upload/v1623196231/Assets/person/6_v4ytve.jpg"
 														class="mx-auto object-cover rounded-full h-10 w-10 "
 													/>
-												</a>
+												</span>
 											</div>
 											<div class="ml-3">
 												<p class="whitespace-no-wrap">Julien Huger</p>
@@ -342,7 +342,7 @@
 										</span>
 									</td>
 									<td class="px-5 py-5 border-b border-gray-200 text-sm">
-										<a href="#" class="text-indigo-600 hover:text-indigo-900"> Edit </a>
+										<span class="text-indigo-600 hover:text-indigo-900"> Edit </span>
 									</td>
 								</tr>
 							</tbody>

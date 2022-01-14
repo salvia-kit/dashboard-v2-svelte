@@ -7,6 +7,10 @@
 	import TopNavigation from './topnavigation/Index.svelte';
 	import SideNavigation from './sidenavigation/Index.svelte';
 
+	onMount(() => {
+		document.getElementsByTagName('body').item(0).removeAttribute('tabindex');
+	});
+
 	if (browser) {
 		page.subscribe(() => {
 			// close side navigation when route changes. it's triggered when viewport is less than 1024px
@@ -15,13 +19,9 @@
 			}
 		});
 	}
-
-	onMount(() => {
-		document.getElementsByTagName('body').item(0).removeAttribute('tabindex');
-	});
 </script>
 
-<!-- w-[calc(100%-16rem)] class get the remain width of the main tag from lg:viewport by dividing
+<!-- w-[calc(100%-16rem)] class get the remain width of the main tag from lg:viewport by subtracting
 (the total width by the width of the side navigation component which is w-64 = 16rem)-->
 
 <div class="bg-mac bg-center bg-cover h-screen overflow-hidden w-full lg:p-4 parent">
