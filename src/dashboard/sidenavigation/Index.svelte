@@ -16,14 +16,14 @@
 	use:clickOutside
 	on:click_outside={closeSidenav}
 	class={`
-	    scrollbar
-      bg-gray-900
-      h-screen
+	  top-0
+	  h-screen
+	  scrollbar
+      bg-gray-200
       overflow-y-auto
-      top-0
-      lg:bg-transparent lg:block lg:relative lg:w-64 lg:z-auto 
-      ${style[mobilePosition]} 
+      lg:bg-transparent lg:block lg:relative lg:w-64
       ${$open ? 'absolute w-8/12 z-40 sm:w-5/12' : 'hidden'}
+      ${style[mobilePosition]}
    `}
 >
 	<div class="pb-32 lg:pb-6">

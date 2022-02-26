@@ -35,15 +35,15 @@
 					class="
 					 	main
 						h-screen
-					  overflow-auto
-					  pb-36
-					  pt-4
-					  px-2
-					  text-black
-					  md:pb-8
-					  md:px-4
-					  lg:mt-4
-					  lg:px-6
+					  	overflow-auto
+					  	pb-36
+					  	pt-4
+					  	px-2
+					  	text-black
+					  	md:pb-8
+					  	md:px-4
+					  	lg:mt-4
+					  	lg:px-6
 					"
 				>
 					<slot />
